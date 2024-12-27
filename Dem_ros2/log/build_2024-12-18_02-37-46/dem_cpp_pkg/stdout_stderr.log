@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_cpp_node[0m
+[ 50%] Built target learn_thread
+[100%] Built target ros2_cpp_node
+-- Install configuration: ""
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/lib/dem_cpp_pkg/ros2_cpp_node
+-- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/lib/dem_cpp_pkg/ros2_cpp_node" to ""
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/lib/dem_cpp_pkg/learn_thread
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/dem_cpp_pkg
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/dem_cpp_pkg
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/path.sh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/path.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.bash
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.sh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.zsh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/package.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/ament_index/resource_index/packages/dem_cpp_pkg
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/cmake/dem_cpp_pkgConfig.cmake
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/cmake/dem_cpp_pkgConfig-version.cmake
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/package.xml

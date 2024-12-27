@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target sys_tatus_display[0m
+[ 50%] Built target hello_qt
+[ 75%] [32mBuilding CXX object CMakeFiles/sys_tatus_display.dir/src/sys_tatus_display.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sys_tatus_display[0m
+[100%] Built target sys_tatus_display
+-- Install configuration: ""
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/lib/status_dispaly/hello_qt
+-- Installing: /home/baba/Desktop/Dem_ros2/install/status_dispaly/lib/status_dispaly/sys_tatus_display
+-- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/status_dispaly/lib/status_dispaly/sys_tatus_display" to ""
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/ament_index/resource_index/package_run_dependencies/status_dispaly
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/ament_index/resource_index/parent_prefix_path/status_dispaly
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/ament_prefix_path.sh
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/path.sh
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/path.dsv
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.bash
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.sh
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.zsh
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/package.dsv
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/ament_index/resource_index/packages/status_dispaly
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/cmake/status_dispalyConfig.cmake
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/cmake/status_dispalyConfig-version.cmake
+-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/package.xml

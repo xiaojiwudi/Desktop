@@ -1,0 +1,7 @@
+[0.010s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg -- -j16 -l16
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_cpp_node.dir/src/main.cpp.o[0m
+[1.985s] [ 75%] [32m[1mLinking CXX executable ros2_cpp_node[0m
+[2.160s] [ 75%] Built target ros2_cpp_node
+[3.011s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[3.123s] [100%] Built target learn_thread

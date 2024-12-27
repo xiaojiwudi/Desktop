@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_cicle[0m
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 50%] Built target turtlesim_cicle
+[100%] Built target turtle_control
+-- Install configuration: ""
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtlesim_cicle
+-- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtlesim_cicle" to ""
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtle_control
+-- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtle_control" to ""
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/package_run_dependencies/dem_cpp_topic
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/parent_prefix_path/dem_cpp_topic
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/ament_prefix_path.sh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/path.sh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/path.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.bash
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.sh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.zsh
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/package.dsv
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/packages/dem_cpp_topic
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/cmake/dem_cpp_topicConfig.cmake
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/cmake/dem_cpp_topicConfig-version.cmake
+-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/package.xml

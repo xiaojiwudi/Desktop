@@ -1,0 +1,4 @@
+source;share/status_dispaly/local_setup.bash
+source;share/status_dispaly/local_setup.dsv
+source;share/status_dispaly/local_setup.sh
+source;share/status_dispaly/local_setup.zsh

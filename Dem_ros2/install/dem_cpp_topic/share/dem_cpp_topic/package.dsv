@@ -1,0 +1,8 @@
+source;share/dem_cpp_topic/hook/cmake_prefix_path.ps1
+source;share/dem_cpp_topic/hook/cmake_prefix_path.dsv
+source;share/dem_cpp_topic/hook/cmake_prefix_path.sh
+source;share/dem_cpp_topic/local_setup.bash
+source;share/dem_cpp_topic/local_setup.dsv
+source;share/dem_cpp_topic/local_setup.ps1
+source;share/dem_cpp_topic/local_setup.sh
+source;share/dem_cpp_topic/local_setup.zsh

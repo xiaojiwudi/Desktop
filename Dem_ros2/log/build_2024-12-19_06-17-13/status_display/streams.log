@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/status_display': CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_dispaly:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/status_display -- -j16 -l16
+[0.050s] [ 50%] Built target hello_qt
+[0.052s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_tatus_display.cpp.o[0m
+[6.561s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[7.236s] [100%] Built target sys_status_display
+[7.246s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_dispaly:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/status_display -- -j16 -l16
+[7.248s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/status_display': CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_dispaly:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/status_display
+[7.253s] -- Install configuration: ""
+[7.253s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/hello_qt
+[7.253s] -- Installing: /home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/sys_status_display
+[7.256s] -- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/sys_status_display" to ""
+[7.257s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[7.257s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[7.257s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[7.257s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[7.257s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/path.sh
+[7.259s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/path.dsv
+[7.259s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.bash
+[7.260s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.sh
+[7.261s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.zsh
+[7.261s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.dsv
+[7.261s] -- Installing: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/package.dsv
+[7.261s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/packages/status_display
+[7.261s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[7.261s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[7.261s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/package.xml
+[7.261s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_dispaly:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/status_display

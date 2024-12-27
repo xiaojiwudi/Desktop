@@ -1,0 +1,11 @@
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/uninstall.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/dem_cpp_pkg_uninstall.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/ros2_cpp_node.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/learn_thread.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/test.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/install.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/install/local.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg/CMakeFiles/install/strip.dir

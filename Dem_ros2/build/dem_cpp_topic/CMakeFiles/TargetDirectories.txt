@@ -1,0 +1,12 @@
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/uninstall.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/dem_cpp_topic_uninstall.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/turtlesim_cicle.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/turtle_control.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/robot_control.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/test.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/edit_cache.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/rebuild_cache.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/list_install_components.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/install.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/install/local.dir
+/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic/CMakeFiles/install/strip.dir

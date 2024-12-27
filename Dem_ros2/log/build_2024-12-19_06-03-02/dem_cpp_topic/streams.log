@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic -- -j16 -l16
+[0.072s] [ 50%] Built target turtlesim_cicle
+[0.072s] [100%] Built target turtle_control
+[0.080s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic -- -j16 -l16
+[0.091s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic
+[0.099s] -- Install configuration: ""
+[0.104s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtlesim_cicle
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtle_control
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/package_run_dependencies/dem_cpp_topic
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/parent_prefix_path/dem_cpp_topic
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/ament_prefix_path.sh
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/ament_prefix_path.dsv
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/path.sh
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/path.dsv
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.bash
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.sh
+[0.108s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.zsh
+[0.109s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.dsv
+[0.109s] -- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/package.dsv
+[0.113s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/packages/dem_cpp_topic
+[0.113s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/cmake/dem_cpp_topicConfig.cmake
+[0.113s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/cmake/dem_cpp_topicConfig-version.cmake
+[0.113s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/package.xml
+[0.151s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic

@@ -1,0 +1,17 @@
+/home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/hello_qt
+/home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/sys_status_display
+/home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+/home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/ament_prefix_path.sh
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/path.sh
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/path.dsv
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.bash
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.sh
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.zsh
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.dsv
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/package.dsv
+/home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/packages/status_display
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+/home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/package.xml

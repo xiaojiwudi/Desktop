@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/${ROS_DISTRO}/include/**",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/geometry_msgs",
+                "/opt/ros/humble/include/rcl",
+                "/opt/ros/humble/include/turtlesim",
+                "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+                "/usr/include/x86_64-linux-gnu/qt5/QtCore",
+                "/usr/include/x86_64-linux-gnu/qt5",
+                "/opt/ros/humble/include/rcutils",
+                "${workspaceFolder}/build/status_interfaces/rosidl_generator_cpp",
+                "/opt/ros/humble/include/rosidl_runtime_cpp"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

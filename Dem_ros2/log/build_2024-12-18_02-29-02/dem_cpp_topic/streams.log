@@ -1,0 +1,7 @@
+[0.012s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic -- -j16 -l16
+[0.042s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim_cicle.dir/src/turtlesim_circle.cpp.o[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[2.840s] [ 75%] [32m[1mLinking CXX executable turtlesim_cicle[0m
+[2.979s] [ 75%] Built target turtlesim_cicle
+[5.389s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[5.655s] [100%] Built target turtle_control

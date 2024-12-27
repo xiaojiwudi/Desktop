@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_cpp_node.dir/src/main.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ros2_cpp_node[0m
+[ 75%] Built target ros2_cpp_node
+[100%] [32m[1mLinking CXX executable learn_thread[0m
+[100%] Built target learn_thread

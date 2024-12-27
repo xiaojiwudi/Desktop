@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/status_dispaly': AMENT_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/status_dispaly -- -j16 -l16
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target sys_tatus_display[0m
+[0.050s] [ 50%] Built target hello_qt
+[0.057s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_tatus_display.dir/src/sys_tatus_display.cpp.o[0m
+[6.703s] [100%] [32m[1mLinking CXX executable sys_tatus_display[0m
+[7.499s] [100%] Built target sys_tatus_display
+[7.512s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/status_dispaly' returned '0': AMENT_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/status_dispaly -- -j16 -l16
+[7.514s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/status_dispaly': AMENT_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/status_dispaly
+[7.518s] -- Install configuration: ""
+[7.520s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/lib/status_dispaly/hello_qt
+[7.520s] -- Installing: /home/baba/Desktop/Dem_ros2/install/status_dispaly/lib/status_dispaly/sys_tatus_display
+[7.523s] -- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/status_dispaly/lib/status_dispaly/sys_tatus_display" to ""
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/ament_index/resource_index/package_run_dependencies/status_dispaly
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/ament_index/resource_index/parent_prefix_path/status_dispaly
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/ament_prefix_path.sh
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/ament_prefix_path.dsv
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/path.sh
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/environment/path.dsv
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.bash
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.sh
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.zsh
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/local_setup.dsv
+[7.524s] -- Installing: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/package.dsv
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/ament_index/resource_index/packages/status_dispaly
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/cmake/status_dispalyConfig.cmake
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/cmake/status_dispalyConfig-version.cmake
+[7.524s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_dispaly/share/status_dispaly/package.xml
+[7.529s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/status_dispaly' returned '0': AMENT_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/status_dispaly

@@ -1,0 +1,1066 @@
+[0.000000] (-) TimerEvent: {}
+[0.000376] (dem_cpp_pkg) JobQueued: {'identifier': 'dem_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000438] (dem_cpp_topic) JobQueued: {'identifier': 'dem_cpp_topic', 'dependencies': OrderedDict()}
+[0.000451] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000460] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_interfaces', '/home/baba/Desktop/Dem_ros2/install/status_interfaces')])}
+[0.000475] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.006977] (dem_cpp_pkg) JobStarted: {'identifier': 'dem_cpp_pkg'}
+[0.009059] (dem_cpp_topic) JobStarted: {'identifier': 'dem_cpp_topic'}
+[0.012711] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.013849] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[0.014426] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baba/Desktop/Dem_ros2/build/status_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/status_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/status_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.020912] (dem_cpp_pkg) JobProgress: {'identifier': 'dem_cpp_pkg', 'progress': 'cmake'}
+[0.036094] (dem_cpp_pkg) JobProgress: {'identifier': 'dem_cpp_pkg', 'progress': 'build'}
+[0.036840] (dem_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.039573] (dem_cpp_topic) JobProgress: {'identifier': 'dem_cpp_topic', 'progress': 'cmake'}
+[0.040554] (dem_cpp_topic) JobProgress: {'identifier': 'dem_cpp_topic', 'progress': 'build'}
+[0.041165] (dem_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic', '--', '-j16', '-l16'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099714] (-) TimerEvent: {}
+[0.181000] (dem_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_control\x1b[0m\n'}
+[0.188957] (dem_cpp_topic) StdoutLine: {'line': b'[ 33%] Built target turtle_control\n'}
+[0.189798] (dem_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target ros2_cpp_node\n'}
+[0.191379] (status_interfaces) StdoutLine: {'line': b'[  3%] Built target status_interfaces__cpp\n'}
+[0.192614] (dem_cpp_topic) StdoutLine: {'line': b'[ 66%] Built target turtlesim_cicle\n'}
+[0.192852] (dem_cpp_pkg) StdoutLine: {'line': b'[100%] Built target learn_thread\n'}
+[0.194054] (status_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[0.195168] (dem_cpp_topic) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o\x1b[0m\n'}
+[0.195601] (status_interfaces) StdoutLine: {'line': b'[ 12%] Built target status_interfaces__rosidl_generator_c\n'}
+[0.199920] (-) TimerEvent: {}
+[0.203054] (dem_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.205027] (dem_cpp_pkg) JobProgress: {'identifier': 'dem_cpp_pkg', 'progress': 'install'}
+[0.213153] (dem_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/dem_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.218504] (dem_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.221346] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/lib/dem_cpp_pkg/ros2_cpp_node\n'}
+[0.221804] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/lib/dem_cpp_pkg/learn_thread\n'}
+[0.222015] (status_interfaces) StdoutLine: {'line': b'[ 22%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.222238] (status_interfaces) StdoutLine: {'line': b'[ 32%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[0.222288] (status_interfaces) StdoutLine: {'line': b'[ 41%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.222753] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/dem_cpp_pkg\n'}
+[0.223133] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/dem_cpp_pkg\n'}
+[0.223194] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[0.223226] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[0.223252] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/path.sh\n'}
+[0.223322] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/environment/path.dsv\n'}
+[0.223640] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.bash\n'}
+[0.223735] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.sh\n'}
+[0.223843] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.zsh\n'}
+[0.223969] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/local_setup.dsv\n'}
+[0.224084] (dem_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/package.dsv\n'}
+[0.224142] (status_interfaces) StdoutLine: {'line': b'[ 58%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.224187] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.224634] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[0.225225] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/ament_index/resource_index/packages/dem_cpp_pkg\n'}
+[0.226119] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/cmake/dem_cpp_pkgConfig.cmake\n'}
+[0.226199] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/cmake/dem_cpp_pkgConfig-version.cmake\n'}
+[0.226232] (dem_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg/share/dem_cpp_pkg/package.xml\n'}
+[0.227225] (dem_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.242654] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces\n'}
+[0.249472] (dem_cpp_pkg) JobEnded: {'identifier': 'dem_cpp_pkg', 'rc': 0}
+[0.258623] (status_interfaces) StdoutLine: {'line': b'[ 74%] Built target status_interfaces__py\n'}
+[0.277424] (status_interfaces) StdoutLine: {'line': b'[ 80%] Built target status_interfaces__rosidl_generator_py\n'}
+[0.296169] (status_interfaces) StdoutLine: {'line': b'[ 93%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.296371] (status_interfaces) StdoutLine: {'line': b'[ 93%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.296411] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.301062] (-) TimerEvent: {}
+[0.387003] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.387563] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[0.387794] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[0.387995] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[0.390170] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.390782] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.401372] (-) TimerEvent: {}
+[0.407901] (status_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[0.415987] (status_interfaces) CommandEnded: {'returncode': 0}
+[0.417754] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[0.418000] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/baba/Desktop/Dem_ros2/build/status_interfaces'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/status_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/status_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.423876] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.424272] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[0.424406] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.424583] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.424670] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.424708] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[0.424737] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[0.424763] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[0.424789] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[0.424813] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.424837] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[0.425163] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[0.425239] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[0.425537] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[0.425651] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.425797] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.425832] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.425858] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.425882] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.426123] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.426319] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.426455] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.426526] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.426646] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[0.426806] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[0.426941] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[0.426979] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[0.427006] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[0.427032] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.427059] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.427094] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.427149] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.427239] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[0.427267] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.427294] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.427496] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.427533] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.427561] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.427590] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.427616] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[0.427647] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[0.427772] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.427803] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.427965] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[0.428116] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.428234] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.428354] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.428388] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.428414] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[0.428732] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.429038] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.429182] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[0.429271] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[0.429396] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.429541] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.429586] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.429636] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.429728] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.429773] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces\n'}
+[0.430115] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.430200] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.430316] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.430349] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg\n'}
+[0.430591] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c\n'}
+[0.430777] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py\n'}
+[0.430851] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py\n'}
+[0.430980] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\n'}
+[0.431179] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.431236] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py\n'}
+[0.431296] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.431325] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.456558] (status_interfaces) StdoutLine: {'line': b"Listing '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...\n"}
+[0.456714] (status_interfaces) StdoutLine: {'line': b"Listing '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...\n"}
+[0.459519] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.459975] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.460249] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.460690] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[0.460984] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[0.461186] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[0.461242] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[0.461468] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[0.461759] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[0.461869] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.461918] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[0.461958] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[0.462019] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[0.462100] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[0.462149] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[0.462175] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[0.462200] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[0.462501] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[0.464189] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.464400] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.464555] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.464645] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.464868] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.465138] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.465250] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.465420] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.465496] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.465739] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.465849] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.466075] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.466196] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.466356] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.466427] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.466631] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.466767] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.466894] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.467036] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.467084] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.467111] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.467136] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.467160] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.467184] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.467208] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[0.467233] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[0.467257] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[0.469418] (status_interfaces) CommandEnded: {'returncode': 0}
+[0.480732] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[0.481971] (status_display) JobStarted: {'identifier': 'status_display'}
+[0.488681] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[0.489901] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[0.490668] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/baba/Desktop/Dem_ros2/build/status_display', '--', '-j16', '-l16'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/status_display', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/status_display'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.501596] (-) TimerEvent: {}
+[0.541488] (status_display) StdoutLine: {'line': b'[100%] Built target sys_status_display\n'}
+[0.541695] (status_display) StdoutLine: {'line': b'[100%] Built target hello_qt\n'}
+[0.548286] (status_display) CommandEnded: {'returncode': 0}
+[0.549888] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'install'}
+[0.550884] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/baba/Desktop/Dem_ros2/build/status_display'], 'cwd': '/home/baba/Desktop/Dem_ros2/build/status_display', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'baba'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/baba'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1548'), ('SYSTEMD_EXEC_PID', '1733'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5983'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'baba'), ('JOURNAL_STREAM', '8:19876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'baba'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/baba-virtual-machine:@/tmp/.ICE-unix/1703,unix/baba-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', '404e29107ab34752b29de25e1afa73a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GHA6Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-20f80e0601.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/baba/Desktop/Dem_ros2/build/status_display'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/baba/Desktop/Dem_ros2/install/status_interfaces:/home/baba/Desktop/Dem_ros2/install/status_display:/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic:/home/baba/Desktop/Dem_ros2/install/dem_cpp_pkg:/opt/ros/humble')]), 'shell': False}
+[0.555997] (status_display) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.557219] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/hello_qt\n'}
+[0.557642] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/lib/status_display/sys_status_display\n'}
+[0.557793] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display\n'}
+[0.558129] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display\n'}
+[0.558710] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/ament_prefix_path.sh\n'}
+[0.558838] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/ament_prefix_path.dsv\n'}
+[0.558894] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/path.sh\n'}
+[0.558986] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/environment/path.dsv\n'}
+[0.559023] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.bash\n'}
+[0.559051] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.sh\n'}
+[0.559078] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.zsh\n'}
+[0.559124] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/local_setup.dsv\n'}
+[0.559156] (status_display) StdoutLine: {'line': b'-- Installing: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/package.dsv\n'}
+[0.559504] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/ament_index/resource_index/packages/status_display\n'}
+[0.559827] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/cmake/status_displayConfig.cmake\n'}
+[0.559865] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake\n'}
+[0.559969] (status_display) StdoutLine: {'line': b'-- Up-to-date: /home/baba/Desktop/Dem_ros2/install/status_display/share/status_display/package.xml\n'}
+[0.561326] (status_display) CommandEnded: {'returncode': 0}
+[0.570597] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 0}
+[0.602134] (-) TimerEvent: {}
+[0.702984] (-) TimerEvent: {}
+[0.803722] (-) TimerEvent: {}
+[0.904268] (-) TimerEvent: {}
+[1.004999] (-) TimerEvent: {}
+[1.105583] (-) TimerEvent: {}
+[1.206110] (-) TimerEvent: {}
+[1.306694] (-) TimerEvent: {}
+[1.407240] (-) TimerEvent: {}
+[1.507732] (-) TimerEvent: {}
+[1.608535] (-) TimerEvent: {}
+[1.709036] (-) TimerEvent: {}
+[1.809640] (-) TimerEvent: {}
+[1.910185] (-) TimerEvent: {}
+[2.010805] (-) TimerEvent: {}
+[2.111453] (-) TimerEvent: {}
+[2.211782] (-) TimerEvent: {}
+[2.312232] (-) TimerEvent: {}
+[2.413063] (-) TimerEvent: {}
+[2.513901] (-) TimerEvent: {}
+[2.614665] (-) TimerEvent: {}
+[2.715274] (-) TimerEvent: {}
+[2.815824] (-) TimerEvent: {}
+[2.916729] (-) TimerEvent: {}
+[3.017315] (-) TimerEvent: {}
+[3.117832] (-) TimerEvent: {}
+[3.218227] (-) TimerEvent: {}
+[3.318751] (-) TimerEvent: {}
+[3.419651] (-) TimerEvent: {}
+[3.520038] (-) TimerEvent: {}
+[3.620633] (-) TimerEvent: {}
+[3.721209] (-) TimerEvent: {}
+[3.823290] (-) TimerEvent: {}
+[3.932710] (-) TimerEvent: {}
+[4.056314] (-) TimerEvent: {}
+[4.188490] (-) TimerEvent: {}
+[4.317832] (-) TimerEvent: {}
+[4.461180] (-) TimerEvent: {}
+[4.585833] (-) TimerEvent: {}
+[4.704505] (-) TimerEvent: {}
+[4.821688] (-) TimerEvent: {}
+[4.941198] (-) TimerEvent: {}
+[5.058412] (-) TimerEvent: {}
+[5.177896] (-) TimerEvent: {}
+[5.292898] (-) TimerEvent: {}
+[5.410768] (-) TimerEvent: {}
+[5.523947] (-) TimerEvent: {}
+[5.639639] (-) TimerEvent: {}
+[5.757363] (-) TimerEvent: {}
+[5.875510] (-) TimerEvent: {}
+[5.991907] (-) TimerEvent: {}
+[6.108842] (-) TimerEvent: {}
+[6.230342] (-) TimerEvent: {}
+[6.344840] (-) TimerEvent: {}
+[6.463570] (-) TimerEvent: {}
+[6.578540] (-) TimerEvent: {}
+[6.694771] (-) TimerEvent: {}
+[6.808978] (-) TimerEvent: {}
+[6.928586] (-) TimerEvent: {}
+[7.045950] (-) TimerEvent: {}
+[7.165601] (-) TimerEvent: {}
+[7.279942] (-) TimerEvent: {}
+[7.396567] (-) TimerEvent: {}
+[7.519144] (-) TimerEvent: {}
+[7.638408] (-) TimerEvent: {}
+[7.757967] (-) TimerEvent: {}
+[7.872664] (-) TimerEvent: {}
+[7.989097] (-) TimerEvent: {}
+[8.104540] (-) TimerEvent: {}
+[8.219863] (-) TimerEvent: {}
+[8.340456] (-) TimerEvent: {}
+[8.470876] (-) TimerEvent: {}
+[8.591644] (-) TimerEvent: {}
+[8.709818] (-) TimerEvent: {}
+[8.823774] (-) TimerEvent: {}
+[8.939154] (-) TimerEvent: {}
+[9.053727] (-) TimerEvent: {}
+[9.167116] (-) TimerEvent: {}
+[9.279180] (-) TimerEvent: {}
+[9.392934] (-) TimerEvent: {}
+[9.504957] (-) TimerEvent: {}
+[9.618735] (-) TimerEvent: {}
+[9.734819] (-) TimerEvent: {}
+[9.849528] (-) TimerEvent: {}
+[9.964391] (-) TimerEvent: {}
+[10.078104] (-) TimerEvent: {}
+[10.190230] (-) TimerEvent: {}
+[10.301878] (-) TimerEvent: {}
+[10.414068] (-) TimerEvent: {}
+[10.529333] (-) TimerEvent: {}
+[10.646376] (-) TimerEvent: {}
+[10.764968] (-) TimerEvent: {}
+[10.885286] (-) TimerEvent: {}
+[11.001465] (-) TimerEvent: {}
+[11.122374] (-) TimerEvent: {}
+[11.240825] (-) TimerEvent: {}
+[11.357927] (-) TimerEvent: {}
+[11.479137] (-) TimerEvent: {}
+[11.601273] (-) TimerEvent: {}
+[11.729186] (-) TimerEvent: {}
+[11.847892] (-) TimerEvent: {}
+[11.964850] (-) TimerEvent: {}
+[12.094438] (-) TimerEvent: {}
+[12.210307] (-) TimerEvent: {}
+[12.330233] (-) TimerEvent: {}
+[12.456191] (-) TimerEvent: {}
+[12.572694] (-) TimerEvent: {}
+[12.690679] (-) TimerEvent: {}
+[12.809667] (-) TimerEvent: {}
+[12.923800] (-) TimerEvent: {}
+[13.042041] (-) TimerEvent: {}
+[13.163659] (-) TimerEvent: {}
+[13.282009] (-) TimerEvent: {}
+[13.397402] (-) TimerEvent: {}
+[13.516823] (-) TimerEvent: {}
+[13.632257] (-) TimerEvent: {}
+[13.746791] (-) TimerEvent: {}
+[13.864111] (-) TimerEvent: {}
+[13.978124] (-) TimerEvent: {}
+[14.091586] (-) TimerEvent: {}
+[14.206183] (-) TimerEvent: {}
+[14.321465] (-) TimerEvent: {}
+[14.438351] (-) TimerEvent: {}
+[14.553947] (-) TimerEvent: {}
+[14.669038] (-) TimerEvent: {}
+[14.784382] (-) TimerEvent: {}
+[14.896483] (-) TimerEvent: {}
+[15.007555] (-) TimerEvent: {}
+[15.119489] (-) TimerEvent: {}
+[15.230414] (-) TimerEvent: {}
+[15.345724] (-) TimerEvent: {}
+[15.466668] (-) TimerEvent: {}
+[15.583772] (-) TimerEvent: {}
+[15.698378] (-) TimerEvent: {}
+[15.813816] (-) TimerEvent: {}
+[15.931639] (-) TimerEvent: {}
+[16.045024] (-) TimerEvent: {}
+[16.158495] (-) TimerEvent: {}
+[16.273186] (-) TimerEvent: {}
+[16.384814] (-) TimerEvent: {}
+[16.501876] (-) TimerEvent: {}
+[16.620001] (-) TimerEvent: {}
+[16.789883] (-) TimerEvent: {}
+[16.907823] (-) TimerEvent: {}
+[17.040178] (-) TimerEvent: {}
+[17.156049] (-) TimerEvent: {}
+[17.274195] (-) TimerEvent: {}
+[17.424690] (-) TimerEvent: {}
+[17.545877] (-) TimerEvent: {}
+[17.667049] (-) TimerEvent: {}
+[17.847122] (-) TimerEvent: {}
+[18.013084] (-) TimerEvent: {}
+[18.136005] (-) TimerEvent: {}
+[18.256975] (-) TimerEvent: {}
+[18.375045] (-) TimerEvent: {}
+[18.494702] (-) TimerEvent: {}
+[18.614851] (-) TimerEvent: {}
+[18.738396] (-) TimerEvent: {}
+[18.887260] (-) TimerEvent: {}
+[19.002440] (-) TimerEvent: {}
+[19.119545] (-) TimerEvent: {}
+[19.234591] (-) TimerEvent: {}
+[19.352851] (-) TimerEvent: {}
+[19.470519] (-) TimerEvent: {}
+[19.586807] (-) TimerEvent: {}
+[19.704601] (-) TimerEvent: {}
+[19.819660] (-) TimerEvent: {}
+[19.936161] (-) TimerEvent: {}
+[20.050292] (-) TimerEvent: {}
+[20.166186] (-) TimerEvent: {}
+[20.281567] (-) TimerEvent: {}
+[20.400833] (-) TimerEvent: {}
+[20.518335] (-) TimerEvent: {}
+[20.640846] (-) TimerEvent: {}
+[20.760722] (-) TimerEvent: {}
+[20.879655] (-) TimerEvent: {}
+[20.996711] (-) TimerEvent: {}
+[21.114000] (-) TimerEvent: {}
+[21.228982] (-) TimerEvent: {}
+[21.343034] (-) TimerEvent: {}
+[21.456349] (-) TimerEvent: {}
+[21.568735] (-) TimerEvent: {}
+[21.682607] (-) TimerEvent: {}
+[21.798901] (-) TimerEvent: {}
+[21.915883] (-) TimerEvent: {}
+[22.034934] (-) TimerEvent: {}
+[22.151001] (-) TimerEvent: {}
+[22.265354] (-) TimerEvent: {}
+[22.380171] (-) TimerEvent: {}
+[22.494476] (-) TimerEvent: {}
+[22.609482] (-) TimerEvent: {}
+[22.759343] (-) TimerEvent: {}
+[22.872151] (-) TimerEvent: {}
+[22.991250] (-) TimerEvent: {}
+[23.104669] (-) TimerEvent: {}
+[23.219091] (-) TimerEvent: {}
+[23.336128] (-) TimerEvent: {}
+[23.463346] (-) TimerEvent: {}
+[23.586611] (-) TimerEvent: {}
+[23.702525] (-) TimerEvent: {}
+[23.817439] (-) TimerEvent: {}
+[23.932577] (-) TimerEvent: {}
+[24.053414] (-) TimerEvent: {}
+[24.186535] (-) TimerEvent: {}
+[24.303018] (-) TimerEvent: {}
+[24.419605] (-) TimerEvent: {}
+[24.539426] (-) TimerEvent: {}
+[24.651728] (-) TimerEvent: {}
+[24.765631] (-) TimerEvent: {}
+[24.879609] (-) TimerEvent: {}
+[24.996080] (-) TimerEvent: {}
+[25.116599] (-) TimerEvent: {}
+[25.236501] (-) TimerEvent: {}
+[25.352099] (-) TimerEvent: {}
+[25.467971] (-) TimerEvent: {}
+[25.586238] (-) TimerEvent: {}
+[25.733036] (-) TimerEvent: {}
+[25.849162] (-) TimerEvent: {}
+[25.966515] (-) TimerEvent: {}
+[26.083729] (-) TimerEvent: {}
+[26.204032] (-) TimerEvent: {}
+[26.324112] (-) TimerEvent: {}
+[26.441935] (-) TimerEvent: {}
+[26.561511] (-) TimerEvent: {}
+[26.678062] (-) TimerEvent: {}
+[26.795402] (-) TimerEvent: {}
+[26.963449] (-) TimerEvent: {}
+[27.082746] (-) TimerEvent: {}
+[27.208894] (-) TimerEvent: {}
+[27.333175] (-) TimerEvent: {}
+[27.451704] (-) TimerEvent: {}
+[27.570504] (-) TimerEvent: {}
+[27.688510] (-) TimerEvent: {}
+[27.804577] (-) TimerEvent: {}
+[27.922970] (-) TimerEvent: {}
+[28.043735] (-) TimerEvent: {}
+[28.167369] (-) TimerEvent: {}
+[28.289574] (-) TimerEvent: {}
+[28.409823] (-) TimerEvent: {}
+[28.527345] (-) TimerEvent: {}
+[28.645578] (-) TimerEvent: {}
+[28.762595] (-) TimerEvent: {}
+[28.884513] (-) TimerEvent: {}
+[29.043416] (-) TimerEvent: {}
+[29.160095] (-) TimerEvent: {}
+[29.277417] (-) TimerEvent: {}
+[29.393183] (-) TimerEvent: {}
+[29.511014] (-) TimerEvent: {}
+[29.638434] (-) TimerEvent: {}
+[29.754496] (-) TimerEvent: {}
+[29.868825] (-) TimerEvent: {}
+[29.982347] (-) TimerEvent: {}
+[30.095751] (-) TimerEvent: {}
+[30.209720] (-) TimerEvent: {}
+[30.423021] (-) TimerEvent: {}
+[30.537859] (-) TimerEvent: {}
+[30.657545] (-) TimerEvent: {}
+[30.776801] (-) TimerEvent: {}
+[30.893432] (-) TimerEvent: {}
+[31.015834] (-) TimerEvent: {}
+[31.136087] (-) TimerEvent: {}
+[31.252215] (-) TimerEvent: {}
+[31.370722] (-) TimerEvent: {}
+[31.490437] (-) TimerEvent: {}
+[31.622152] (-) TimerEvent: {}
+[31.740394] (-) TimerEvent: {}
+[31.885537] (-) TimerEvent: {}
+[32.077116] (-) TimerEvent: {}
+[32.196837] (-) TimerEvent: {}
+[32.316954] (-) TimerEvent: {}
+[32.449975] (-) TimerEvent: {}
+[32.570483] (-) TimerEvent: {}
+[32.690003] (-) TimerEvent: {}
+[32.852126] (-) TimerEvent: {}
+[32.971222] (-) TimerEvent: {}
+[33.122941] (-) TimerEvent: {}
+[33.286248] (-) TimerEvent: {}
+[33.426913] (-) TimerEvent: {}
+[33.544246] (-) TimerEvent: {}
+[33.661033] (-) TimerEvent: {}
+[33.779208] (-) TimerEvent: {}
+[33.897375] (-) TimerEvent: {}
+[34.012460] (-) TimerEvent: {}
+[34.127972] (-) TimerEvent: {}
+[34.247830] (-) TimerEvent: {}
+[34.364820] (-) TimerEvent: {}
+[34.481357] (-) TimerEvent: {}
+[34.599527] (-) TimerEvent: {}
+[34.717212] (-) TimerEvent: {}
+[34.834245] (-) TimerEvent: {}
+[34.955995] (-) TimerEvent: {}
+[35.073917] (-) TimerEvent: {}
+[35.191933] (-) TimerEvent: {}
+[35.308871] (-) TimerEvent: {}
+[35.426810] (-) TimerEvent: {}
+[35.546228] (-) TimerEvent: {}
+[35.664565] (-) TimerEvent: {}
+[35.783994] (-) TimerEvent: {}
+[35.904586] (-) TimerEvent: {}
+[36.021799] (-) TimerEvent: {}
+[36.139902] (-) TimerEvent: {}
+[36.260287] (-) TimerEvent: {}
+[36.373089] (-) TimerEvent: {}
+[36.493859] (-) TimerEvent: {}
+[36.613378] (-) TimerEvent: {}
+[36.752296] (-) TimerEvent: {}
+[36.873120] (-) TimerEvent: {}
+[37.015234] (-) TimerEvent: {}
+[37.159349] (-) TimerEvent: {}
+[37.286586] (-) TimerEvent: {}
+[37.417618] (-) TimerEvent: {}
+[37.544995] (-) TimerEvent: {}
+[37.670784] (-) TimerEvent: {}
+[37.826938] (-) TimerEvent: {}
+[37.959770] (-) TimerEvent: {}
+[38.080220] (-) TimerEvent: {}
+[38.197230] (-) TimerEvent: {}
+[38.312440] (-) TimerEvent: {}
+[38.468884] (-) TimerEvent: {}
+[39.299829] (-) TimerEvent: {}
+[39.997305] (-) TimerEvent: {}
+[40.332580] (-) TimerEvent: {}
+[40.561586] (-) TimerEvent: {}
+[41.275660] (-) TimerEvent: {}
+[41.432232] (-) TimerEvent: {}
+[41.636422] (-) TimerEvent: {}
+[41.762380] (-) TimerEvent: {}
+[41.886477] (-) TimerEvent: {}
+[42.002954] (-) TimerEvent: {}
+[42.117451] (-) TimerEvent: {}
+[42.237703] (-) TimerEvent: {}
+[42.359285] (-) TimerEvent: {}
+[42.477353] (-) TimerEvent: {}
+[42.594628] (-) TimerEvent: {}
+[42.718696] (-) TimerEvent: {}
+[42.832444] (-) TimerEvent: {}
+[42.947579] (-) TimerEvent: {}
+[43.063847] (-) TimerEvent: {}
+[43.182757] (-) TimerEvent: {}
+[43.308549] (-) TimerEvent: {}
+[43.434577] (-) TimerEvent: {}
+[43.555120] (-) TimerEvent: {}
+[43.680679] (-) TimerEvent: {}
+[43.817063] (-) TimerEvent: {}
+[43.937320] (-) TimerEvent: {}
+[44.058408] (-) TimerEvent: {}
+[44.207907] (-) TimerEvent: {}
+[44.326660] (-) TimerEvent: {}
+[44.445769] (-) TimerEvent: {}
+[44.607943] (-) TimerEvent: {}
+[44.737223] (-) TimerEvent: {}
+[44.859701] (-) TimerEvent: {}
+[44.979438] (-) TimerEvent: {}
+[45.098566] (-) TimerEvent: {}
+[45.280114] (-) TimerEvent: {}
+[45.401400] (-) TimerEvent: {}
+[45.591796] (-) TimerEvent: {}
+[45.707564] (-) TimerEvent: {}
+[45.826643] (-) TimerEvent: {}
+[45.943346] (-) TimerEvent: {}
+[46.058713] (-) TimerEvent: {}
+[46.219190] (-) TimerEvent: {}
+[46.390494] (-) TimerEvent: {}
+[46.561228] (-) TimerEvent: {}
+[46.685844] (-) TimerEvent: {}
+[46.806182] (-) TimerEvent: {}
+[46.925558] (-) TimerEvent: {}
+[47.041033] (-) TimerEvent: {}
+[47.156545] (-) TimerEvent: {}
+[47.271661] (-) TimerEvent: {}
+[47.392002] (-) TimerEvent: {}
+[47.515632] (-) TimerEvent: {}
+[47.638700] (-) TimerEvent: {}
+[47.756903] (-) TimerEvent: {}
+[47.924743] (-) TimerEvent: {}
+[48.042394] (-) TimerEvent: {}
+[48.161579] (-) TimerEvent: {}
+[48.287807] (-) TimerEvent: {}
+[48.410548] (-) TimerEvent: {}
+[48.535169] (-) TimerEvent: {}
+[48.658620] (-) TimerEvent: {}
+[48.774343] (-) TimerEvent: {}
+[48.888355] (-) TimerEvent: {}
+[49.028179] (-) TimerEvent: {}
+[49.146856] (-) TimerEvent: {}
+[49.268989] (-) TimerEvent: {}
+[49.388987] (-) TimerEvent: {}
+[49.512846] (-) TimerEvent: {}
+[49.773519] (-) TimerEvent: {}
+[49.891249] (-) TimerEvent: {}
+[50.006104] (-) TimerEvent: {}
+[50.120335] (-) TimerEvent: {}
+[50.241369] (-) TimerEvent: {}
+[50.358073] (-) TimerEvent: {}
+[50.498993] (-) TimerEvent: {}
+[50.613781] (-) TimerEvent: {}
+[50.733697] (-) TimerEvent: {}
+[50.858461] (-) TimerEvent: {}
+[51.215550] (-) TimerEvent: {}
+[51.436709] (-) TimerEvent: {}
+[51.900780] (-) TimerEvent: {}
+[52.057649] (-) TimerEvent: {}
+[52.300341] (-) TimerEvent: {}
+[52.427043] (-) TimerEvent: {}
+[52.547144] (-) TimerEvent: {}
+[52.663782] (-) TimerEvent: {}
+[52.780941] (-) TimerEvent: {}
+[52.896285] (-) TimerEvent: {}
+[53.012623] (-) TimerEvent: {}
+[53.151085] (-) TimerEvent: {}
+[53.290812] (-) TimerEvent: {}
+[53.409850] (-) TimerEvent: {}
+[53.527580] (-) TimerEvent: {}
+[53.648980] (-) TimerEvent: {}
+[53.768372] (-) TimerEvent: {}
+[53.888186] (-) TimerEvent: {}
+[54.005185] (-) TimerEvent: {}
+[54.117847] (-) TimerEvent: {}
+[54.234847] (-) TimerEvent: {}
+[54.352931] (-) TimerEvent: {}
+[54.482748] (-) TimerEvent: {}
+[54.598071] (-) TimerEvent: {}
+[54.714936] (-) TimerEvent: {}
+[54.832065] (-) TimerEvent: {}
+[54.954485] (-) TimerEvent: {}
+[55.077578] (-) TimerEvent: {}
+[55.195899] (-) TimerEvent: {}
+[55.315214] (-) TimerEvent: {}
+[55.429057] (-) TimerEvent: {}
+[55.545498] (-) TimerEvent: {}
+[55.663461] (-) TimerEvent: {}
+[55.781203] (-) TimerEvent: {}
+[55.899084] (-) TimerEvent: {}
+[56.102708] (-) TimerEvent: {}
+[56.221170] (-) TimerEvent: {}
+[56.383921] (-) TimerEvent: {}
+[56.509324] (-) TimerEvent: {}
+[56.645435] (-) TimerEvent: {}
+[56.763089] (-) TimerEvent: {}
+[56.882617] (-) TimerEvent: {}
+[57.033033] (-) TimerEvent: {}
+[57.152195] (-) TimerEvent: {}
+[57.305633] (-) TimerEvent: {}
+[57.426338] (-) TimerEvent: {}
+[57.549353] (-) TimerEvent: {}
+[57.674969] (-) TimerEvent: {}
+[57.795485] (-) TimerEvent: {}
+[57.914064] (-) TimerEvent: {}
+[58.034543] (-) TimerEvent: {}
+[58.156198] (-) TimerEvent: {}
+[58.317064] (-) TimerEvent: {}
+[58.433752] (-) TimerEvent: {}
+[58.551890] (-) TimerEvent: {}
+[58.674276] (-) TimerEvent: {}
+[58.793873] (-) TimerEvent: {}
+[58.915849] (-) TimerEvent: {}
+[59.035636] (-) TimerEvent: {}
+[59.152568] (-) TimerEvent: {}
+[59.271479] (-) TimerEvent: {}
+[59.398128] (-) TimerEvent: {}
+[59.623472] (-) TimerEvent: {}
+[59.758177] (-) TimerEvent: {}
+[59.889497] (-) TimerEvent: {}
+[60.008973] (-) TimerEvent: {}
+[60.126667] (-) TimerEvent: {}
+[60.246214] (-) TimerEvent: {}
+[60.367598] (-) TimerEvent: {}
+[60.483594] (-) TimerEvent: {}
+[60.602595] (-) TimerEvent: {}
+[60.776862] (-) TimerEvent: {}
+[60.914461] (-) TimerEvent: {}
+[61.087945] (-) TimerEvent: {}
+[61.216803] (-) TimerEvent: {}
+[61.339479] (-) TimerEvent: {}
+[61.474433] (-) TimerEvent: {}
+[61.611082] (-) TimerEvent: {}
+[61.736783] (-) TimerEvent: {}
+[61.866541] (-) TimerEvent: {}
+[62.028344] (-) TimerEvent: {}
+[62.196271] (-) TimerEvent: {}
+[62.324100] (-) TimerEvent: {}
+[62.450723] (-) TimerEvent: {}
+[62.581488] (-) TimerEvent: {}
+[62.712503] (-) TimerEvent: {}
+[62.839242] (-) TimerEvent: {}
+[62.981152] (-) TimerEvent: {}
+[63.436398] (-) TimerEvent: {}
+[63.564007] (-) TimerEvent: {}
+[63.689270] (-) TimerEvent: {}
+[63.824348] (-) TimerEvent: {}
+[64.217038] (-) TimerEvent: {}
+[64.562935] (-) TimerEvent: {}
+[64.692203] (-) TimerEvent: {}
+[64.824324] (-) TimerEvent: {}
+[65.056259] (-) TimerEvent: {}
+[65.184581] (-) TimerEvent: {}
+[65.311999] (-) TimerEvent: {}
+[65.491470] (-) TimerEvent: {}
+[65.730293] (-) TimerEvent: {}
+[66.023684] (-) TimerEvent: {}
+[66.264463] (-) TimerEvent: {}
+[66.398234] (-) TimerEvent: {}
+[66.709085] (-) TimerEvent: {}
+[66.880296] (-) TimerEvent: {}
+[67.060752] (-) TimerEvent: {}
+[67.180297] (-) TimerEvent: {}
+[67.317680] (-) TimerEvent: {}
+[67.433500] (-) TimerEvent: {}
+[67.554828] (-) TimerEvent: {}
+[67.669606] (-) TimerEvent: {}
+[67.788980] (-) TimerEvent: {}
+[67.920448] (-) TimerEvent: {}
+[68.035714] (-) TimerEvent: {}
+[68.151722] (-) TimerEvent: {}
+[68.266555] (-) TimerEvent: {}
+[68.384992] (-) TimerEvent: {}
+[68.504922] (-) TimerEvent: {}
+[68.623475] (-) TimerEvent: {}
+[68.743738] (-) TimerEvent: {}
+[68.959619] (-) TimerEvent: {}
+[69.388169] (-) TimerEvent: {}
+[69.694916] (-) TimerEvent: {}
+[69.996762] (-) TimerEvent: {}
+[70.274067] (-) TimerEvent: {}
+[70.421323] (-) TimerEvent: {}
+[70.563378] (-) TimerEvent: {}
+[70.681331] (-) TimerEvent: {}
+[70.800333] (-) TimerEvent: {}
+[70.925380] (-) TimerEvent: {}
+[71.043191] (-) TimerEvent: {}
+[71.158510] (-) TimerEvent: {}
+[71.273185] (-) TimerEvent: {}
+[71.425809] (-) TimerEvent: {}
+[71.547192] (-) TimerEvent: {}
+[71.682589] (-) TimerEvent: {}
+[71.802559] (-) TimerEvent: {}
+[71.925164] (-) TimerEvent: {}
+[72.074871] (-) TimerEvent: {}
+[72.197770] (-) TimerEvent: {}
+[72.315648] (-) TimerEvent: {}
+[72.430147] (-) TimerEvent: {}
+[72.550020] (-) TimerEvent: {}
+[72.667359] (-) TimerEvent: {}
+[72.781888] (-) TimerEvent: {}
+[72.898831] (-) TimerEvent: {}
+[73.013512] (-) TimerEvent: {}
+[73.131990] (-) TimerEvent: {}
+[73.249428] (-) TimerEvent: {}
+[73.366793] (-) TimerEvent: {}
+[73.483119] (-) TimerEvent: {}
+[73.600755] (-) TimerEvent: {}
+[73.720272] (-) TimerEvent: {}
+[73.841648] (-) TimerEvent: {}
+[74.020123] (-) TimerEvent: {}
+[74.135275] (-) TimerEvent: {}
+[74.250511] (-) TimerEvent: {}
+[74.370398] (-) TimerEvent: {}
+[74.489234] (-) TimerEvent: {}
+[74.607156] (-) TimerEvent: {}
+[74.724705] (-) TimerEvent: {}
+[74.848034] (-) TimerEvent: {}
+[74.965752] (-) TimerEvent: {}
+[75.085293] (-) TimerEvent: {}
+[75.201216] (-) TimerEvent: {}
+[75.321604] (-) TimerEvent: {}
+[75.435345] (-) TimerEvent: {}
+[75.552686] (-) TimerEvent: {}
+[75.670609] (-) TimerEvent: {}
+[75.786174] (-) TimerEvent: {}
+[75.902975] (-) TimerEvent: {}
+[76.021044] (-) TimerEvent: {}
+[76.139251] (-) TimerEvent: {}
+[76.259529] (-) TimerEvent: {}
+[76.381357] (-) TimerEvent: {}
+[76.498191] (-) TimerEvent: {}
+[76.617369] (-) TimerEvent: {}
+[76.738461] (-) TimerEvent: {}
+[76.854165] (-) TimerEvent: {}
+[76.970321] (-) TimerEvent: {}
+[77.089130] (-) TimerEvent: {}
+[77.209627] (-) TimerEvent: {}
+[77.330184] (-) TimerEvent: {}
+[77.452048] (-) TimerEvent: {}
+[77.576083] (-) TimerEvent: {}
+[77.698170] (-) TimerEvent: {}
+[77.820486] (-) TimerEvent: {}
+[77.980406] (-) TimerEvent: {}
+[78.146196] (-) TimerEvent: {}
+[78.271238] (-) TimerEvent: {}
+[78.388635] (-) TimerEvent: {}
+[78.505391] (-) TimerEvent: {}
+[78.625522] (-) TimerEvent: {}
+[78.743780] (-) TimerEvent: {}
+[78.877225] (-) TimerEvent: {}
+[79.002561] (-) TimerEvent: {}
+[79.121761] (-) TimerEvent: {}
+[79.243912] (-) TimerEvent: {}
+[79.361581] (-) TimerEvent: {}
+[79.478173] (-) TimerEvent: {}
+[79.593694] (-) TimerEvent: {}
+[79.762290] (-) TimerEvent: {}
+[79.883910] (-) TimerEvent: {}
+[80.000302] (-) TimerEvent: {}
+[80.120547] (-) TimerEvent: {}
+[80.238374] (-) TimerEvent: {}
+[80.357732] (-) TimerEvent: {}
+[80.476490] (-) TimerEvent: {}
+[80.593106] (-) TimerEvent: {}
+[80.709941] (-) TimerEvent: {}
+[80.857907] (-) TimerEvent: {}
+[81.141734] (-) TimerEvent: {}
+[81.448816] (-) TimerEvent: {}
+[81.691688] (-) TimerEvent: {}
+[81.810624] (-) TimerEvent: {}
+[81.925648] (-) TimerEvent: {}
+[82.043698] (-) TimerEvent: {}
+[82.166639] (-) TimerEvent: {}
+[82.335006] (-) TimerEvent: {}
+[82.456513] (-) TimerEvent: {}
+[82.573343] (-) TimerEvent: {}
+[82.691164] (-) TimerEvent: {}
+[82.808155] (-) TimerEvent: {}
+[82.927523] (-) TimerEvent: {}
+[83.112344] (-) TimerEvent: {}
+[83.297322] (-) TimerEvent: {}
+[83.414672] (-) TimerEvent: {}
+[83.535689] (-) TimerEvent: {}
+[83.664986] (-) TimerEvent: {}
+[83.821419] (-) TimerEvent: {}
+[83.941945] (-) TimerEvent: {}
+[84.060345] (-) TimerEvent: {}
+[84.180292] (-) TimerEvent: {}
+[84.317712] (-) TimerEvent: {}
+[84.437007] (-) TimerEvent: {}
+[84.556792] (-) TimerEvent: {}
+[84.675083] (-) TimerEvent: {}
+[84.793544] (-) TimerEvent: {}
+[84.913105] (-) TimerEvent: {}
+[85.053588] (-) TimerEvent: {}
+[85.171087] (-) TimerEvent: {}
+[85.290176] (-) TimerEvent: {}
+[85.408587] (-) TimerEvent: {}
+[85.533603] (-) TimerEvent: {}
+[85.680097] (-) TimerEvent: {}
+[85.797608] (-) TimerEvent: {}
+[85.913541] (-) TimerEvent: {}
+[86.029400] (-) TimerEvent: {}
+[86.153694] (-) TimerEvent: {}
+[86.273126] (-) TimerEvent: {}
+[86.391671] (-) TimerEvent: {}
+[86.512569] (-) TimerEvent: {}
+[86.631313] (-) TimerEvent: {}
+[86.747738] (-) TimerEvent: {}
+[86.861541] (-) TimerEvent: {}
+[86.982466] (-) TimerEvent: {}
+[87.142279] (-) TimerEvent: {}
+[87.314413] (-) TimerEvent: {}
+[87.451404] (-) TimerEvent: {}
+[87.677134] (-) TimerEvent: {}
+[87.797604] (-) TimerEvent: {}
+[87.925347] (-) TimerEvent: {}
+[88.041759] (-) TimerEvent: {}
+[88.162173] (-) TimerEvent: {}
+[88.280083] (-) TimerEvent: {}
+[88.397725] (-) TimerEvent: {}
+[88.519950] (-) TimerEvent: {}
+[88.643552] (-) TimerEvent: {}
+[88.765258] (-) TimerEvent: {}
+[88.883536] (-) TimerEvent: {}
+[89.005468] (-) TimerEvent: {}
+[89.138645] (-) TimerEvent: {}
+[89.257121] (-) TimerEvent: {}
+[89.395212] (-) TimerEvent: {}
+[89.525678] (-) TimerEvent: {}
+[89.657345] (-) TimerEvent: {}
+[89.783245] (-) TimerEvent: {}
+[89.904504] (-) TimerEvent: {}
+[90.021752] (-) TimerEvent: {}
+[90.144808] (-) TimerEvent: {}
+[90.264029] (-) TimerEvent: {}
+[90.382372] (-) TimerEvent: {}
+[90.499756] (-) TimerEvent: {}
+[90.615334] (-) TimerEvent: {}
+[90.731406] (-) TimerEvent: {}
+[90.841434] (-) TimerEvent: {}
+[90.980111] (-) TimerEvent: {}
+[91.094484] (-) TimerEvent: {}
+[91.209928] (-) TimerEvent: {}
+[91.326546] (-) TimerEvent: {}
+[91.443425] (-) TimerEvent: {}
+[91.560932] (-) TimerEvent: {}
+[91.689433] (-) TimerEvent: {}
+[91.841492] (-) TimerEvent: {}
+[91.962323] (-) TimerEvent: {}
+[92.080418] (-) TimerEvent: {}
+[92.195888] (-) TimerEvent: {}
+[92.314196] (-) TimerEvent: {}
+[92.436069] (-) TimerEvent: {}
+[92.555259] (-) TimerEvent: {}
+[92.672576] (-) TimerEvent: {}
+[92.819752] (-) TimerEvent: {}
+[92.938004] (-) TimerEvent: {}
+[93.062439] (-) TimerEvent: {}
+[93.206317] (-) TimerEvent: {}
+[93.327235] (-) TimerEvent: {}
+[93.456864] (-) TimerEvent: {}
+[93.575904] (-) TimerEvent: {}
+[93.714344] (-) TimerEvent: {}
+[93.842223] (-) TimerEvent: {}
+[93.958552] (-) TimerEvent: {}
+[94.077574] (-) TimerEvent: {}
+[94.195610] (-) TimerEvent: {}
+[94.319794] (-) TimerEvent: {}
+[94.441903] (-) TimerEvent: {}
+[94.559928] (-) TimerEvent: {}
+[94.676005] (-) TimerEvent: {}
+[94.793051] (-) TimerEvent: {}
+[94.913696] (-) TimerEvent: {}
+[95.033147] (-) TimerEvent: {}
+[95.149618] (-) TimerEvent: {}
+[95.266354] (-) TimerEvent: {}
+[95.387254] (-) TimerEvent: {}
+[95.512750] (-) TimerEvent: {}
+[95.637134] (-) TimerEvent: {}
+[95.758344] (-) TimerEvent: {}
+[95.877322] (-) TimerEvent: {}
+[95.995162] (-) TimerEvent: {}
+[96.121963] (-) TimerEvent: {}
+[96.252767] (-) TimerEvent: {}
+[96.379302] (-) TimerEvent: {}
+[96.502018] (-) TimerEvent: {}
+[96.619856] (-) TimerEvent: {}
+[96.742604] (-) TimerEvent: {}
+[96.884387] (-) TimerEvent: {}
+[97.008619] (-) TimerEvent: {}
+[97.126628] (-) TimerEvent: {}
+[97.254674] (-) TimerEvent: {}
+[97.376804] (-) TimerEvent: {}
+[97.496649] (-) TimerEvent: {}
+[97.616669] (-) TimerEvent: {}
+[97.735924] (-) TimerEvent: {}
+[97.858115] (-) TimerEvent: {}
+[97.985356] (-) TimerEvent: {}
+[98.110145] (-) TimerEvent: {}
+[98.238291] (-) TimerEvent: {}
+[98.371226] (-) TimerEvent: {}
+[98.502241] (-) TimerEvent: {}
+[98.661498] (-) TimerEvent: {}
+[98.781987] (-) TimerEvent: {}
+[98.899182] (-) TimerEvent: {}
+[99.018374] (-) TimerEvent: {}
+[99.171509] (-) TimerEvent: {}
+[100.212206] (-) TimerEvent: {}
+[101.376840] (-) TimerEvent: {}
+[102.057244] (-) TimerEvent: {}
+[102.367304] (-) TimerEvent: {}
+[103.114169] (-) TimerEvent: {}
+[103.577512] (-) TimerEvent: {}
+[103.834794] (-) TimerEvent: {}
+[103.989624] (-) TimerEvent: {}
+[104.108048] (-) TimerEvent: {}
+[104.229578] (-) TimerEvent: {}
+[104.353908] (-) TimerEvent: {}
+[104.588145] (-) TimerEvent: {}
+[104.713507] (-) TimerEvent: {}
+[104.834005] (-) TimerEvent: {}
+[104.952150] (-) TimerEvent: {}
+[105.073775] (-) TimerEvent: {}
+[105.195026] (-) TimerEvent: {}
+[105.320963] (-) TimerEvent: {}
+[105.444337] (-) TimerEvent: {}
+[105.566056] (-) TimerEvent: {}
+[105.693851] (-) TimerEvent: {}
+[105.812867] (-) TimerEvent: {}
+[105.930633] (-) TimerEvent: {}
+[106.046306] (-) TimerEvent: {}
+[106.162432] (-) TimerEvent: {}
+[106.279937] (-) TimerEvent: {}
+[106.398815] (-) TimerEvent: {}
+[106.536011] (-) TimerEvent: {}
+[106.708209] (-) TimerEvent: {}
+[106.899476] (-) TimerEvent: {}
+[107.029094] (-) TimerEvent: {}
+[107.147554] (-) TimerEvent: {}
+[107.327258] (-) TimerEvent: {}
+[107.459287] (-) TimerEvent: {}
+[107.579755] (-) TimerEvent: {}
+[107.706234] (-) TimerEvent: {}
+[107.830928] (-) TimerEvent: {}
+[107.956122] (-) TimerEvent: {}
+[108.079481] (-) TimerEvent: {}
+[108.200467] (-) TimerEvent: {}
+[108.324915] (-) TimerEvent: {}
+[108.452520] (-) TimerEvent: {}
+[108.572911] (-) TimerEvent: {}
+[108.711634] (-) TimerEvent: {}
+[108.842972] (-) TimerEvent: {}
+[108.969257] (-) TimerEvent: {}
+[109.095441] (-) TimerEvent: {}
+[109.236281] (-) TimerEvent: {}
+[109.354827] (-) TimerEvent: {}
+[109.478090] (-) TimerEvent: {}
+[109.598662] (-) TimerEvent: {}
+[109.752236] (-) TimerEvent: {}
+[109.882193] (-) TimerEvent: {}
+[110.002196] (-) TimerEvent: {}
+[110.120633] (-) TimerEvent: {}
+[110.238274] (-) TimerEvent: {}
+[110.357186] (-) TimerEvent: {}
+[110.475644] (-) TimerEvent: {}
+[110.598628] (-) TimerEvent: {}
+[110.723402] (-) TimerEvent: {}
+[110.849975] (-) TimerEvent: {}
+[110.973610] (-) TimerEvent: {}
+[111.126878] (-) TimerEvent: {}
+[111.247341] (-) TimerEvent: {}
+[111.363350] (-) TimerEvent: {}
+[111.482318] (-) TimerEvent: {}
+[111.598389] (-) TimerEvent: {}
+[111.717551] (-) TimerEvent: {}
+[111.840494] (-) TimerEvent: {}
+[111.957973] (-) TimerEvent: {}
+[112.093376] (-) TimerEvent: {}
+[112.260735] (-) TimerEvent: {}
+[112.401970] (-) TimerEvent: {}
+[112.521238] (-) TimerEvent: {}
+[112.638759] (-) TimerEvent: {}
+[112.758089] (-) TimerEvent: {}
+[112.898754] (-) TimerEvent: {}
+[113.086811] (-) TimerEvent: {}
+[113.327062] (-) TimerEvent: {}
+[113.482243] (-) TimerEvent: {}
+[113.722202] (-) TimerEvent: {}
+[114.222768] (-) TimerEvent: {}
+[114.429950] (-) TimerEvent: {}
+[114.747660] (-) TimerEvent: {}
+[114.890783] (-) TimerEvent: {}
+[115.514724] (-) TimerEvent: {}
+[115.644231] (-) TimerEvent: {}
+[115.774080] (-) TimerEvent: {}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

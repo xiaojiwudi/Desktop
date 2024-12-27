@@ -1,0 +1,70 @@
+[0.016s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target robot_control[0m
+[0.077s] [ 33%] Built target turtlesim_cicle
+[0.080s] [ 66%] Built target turtle_control
+[0.087s] [ 83%] [32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o[0m
+[1.691s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.692s]                  from [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:9[m[K:
+[1.692s] [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:[m[K In member function ‘[01m[Kvoid RobotControl::pose_callback(const Pose&)[m[K’:
+[1.692s] [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:132:41:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.692s]   132 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"x=%.2f, y=%.2f,direction=2f%"[m[K,robot_pos_x, robot_pos_y,robot_direction);
+[1.692s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.692s] [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:132:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.692s]   132 |         RCLCPP_INFO(this->get_logger(), "x=%.2f, y=%.2f,direction=2f[01;36m[K%[m[K",robot_pos_x, robot_pos_y,robot_direction);
+[1.692s]       |                                                                     [01;36m[K^[m[K
+[1.692s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.693s]                  from [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:9[m[K:
+[1.693s] [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:132:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.693s]   132 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"x=%.2f, y=%.2f,direction=2f%"[m[K,robot_pos_x, robot_pos_y,robot_direction);
+[1.693s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.693s] [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:130:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krobot_linear_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.693s]   130 |         float [01;35m[Krobot_linear_velocity[m[K = msg.linear_velocity;
+[1.693s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.693s] [01m[K/home/baba/Desktop/Dem_ros2/src/dem_cpp_topic/src/robot_control.cpp:131:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krobot_angular_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.693s]   131 |         float [01;35m[Krobot_angular_velocity[m[K = msg.angular_velocity;
+[1.693s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.636s] [100%] [32m[1mLinking CXX executable robot_control[0m
+[5.934s] [100%] Built target robot_control
+[5.941s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic -- -j16 -l16
+[5.942s] Invoking command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic
+[5.947s] -- Install configuration: ""
+[5.948s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtlesim_cicle
+[5.948s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/turtle_control
+[5.949s] -- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/robot_control
+[5.951s] -- Set runtime path of "/home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/lib/dem_cpp_topic/robot_control" to ""
+[5.952s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/package_run_dependencies/dem_cpp_topic
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/parent_prefix_path/dem_cpp_topic
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/ament_prefix_path.sh
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/ament_prefix_path.dsv
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/path.sh
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/environment/path.dsv
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.bash
+[5.953s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.sh
+[5.954s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.zsh
+[5.954s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/local_setup.dsv
+[5.954s] -- Installing: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/package.dsv
+[5.954s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/ament_index/resource_index/packages/dem_cpp_topic
+[5.954s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/cmake/dem_cpp_topicConfig.cmake
+[5.954s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/cmake/dem_cpp_topicConfig-version.cmake
+[5.954s] -- Up-to-date: /home/baba/Desktop/Dem_ros2/install/dem_cpp_topic/share/dem_cpp_topic/package.xml
+[5.956s] Invoked command in '/home/baba/Desktop/Dem_ros2/build/dem_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/baba/Desktop/Dem_ros2/build/dem_cpp_topic

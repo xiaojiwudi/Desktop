@@ -1,0 +1,11 @@
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/uninstall.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/status_dispaly_uninstall.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/hello_qt.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/sys_tatus_display.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/test.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/edit_cache.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/rebuild_cache.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/list_install_components.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/install.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/install/local.dir
+/home/baba/Desktop/Dem_ros2/build/status_dispaly/CMakeFiles/install/strip.dir
